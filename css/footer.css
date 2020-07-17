@@ -1,0 +1,24 @@
+/* --------Footer------------- */
+footer {
+  background-color: rgba(0, 0, 0, 0.452);
+  padding: 50px 0 20px 0;
+  position: relative;
+  height: auto;
+  
+}
+
+footer ul {
+  list-style: none;
+  margin-bottom: 120px;
+}
+
+footer ul li {
+  float: right;
+  margin: 0 5px;
+
+  transition: 0.2s;
+}
+
+footer ul li:hover {
+  transform: translateY(-3px);
+}

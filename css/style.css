@@ -1,0 +1,118 @@
+/* ---------Layout---------- */
+html, body, #home {
+  height: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  background-image: url(https://c.wallhere.com/photos/26/cf/library_interior_interior_design_books_knowledge_shelves-72435.jpg!d);
+  background-attachment: fixed;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+/* Capa */
+.capa {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-inner {
+
+  background-color: rgba(24, 23, 24, 0.699);
+
+  height: 250px;
+  
+
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.btn-custom {
+  color: white;
+
+  border-radius: 500px;
+  -webkit-border-radius: 500px;
+  -moz-border-radius: 500px;
+  padding: 10px 20px;
+
+  text-transform: uppercase;
+  transition: background 0.4s, color 0.4s;
+  
+}
+.btn-veja {
+  background-color: rgb(39, 36, 36);
+}
+
+.btn-veja:hover {
+  background-color: turquoise;
+}
+
+
+.caixa {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#destaques {
+  background-color: rgba(24, 23, 24, 0.363);
+}
+
+#destaques h2, h3 {
+  color:white;
+}
+
+#destaques .row.livros a img {
+  width: 450px;
+  height: 600px;
+
+  box-shadow: 2px -2px 4px black;
+
+  transition: 0.2s;
+}
+
+#destaques .row.livros a img:hover {
+  transform: translateY(-3px);
+  box-shadow: 4px 3px 10px rgba(82, 25, 74, 0.726);
+}
+
+#info, h2 {
+  text-align: center;
+}
+
+/* Tipografia */
+h1 {
+  font-weight: 900;
+  letter-spacing: -0.05em;
+  margin-bottom: 50px;
+  color: white
+}
+
+h2 {
+  font-size: 3em;
+  font-weight: 700;
+  letter-spacing: -0.04em;
+  color: rgb(241, 241, 241);
+
+  text-shadow: 2px -2px 5px black;
+}
+
+h3 {
+  font-size: 2em;
+  font-weight: 700;
+  letter-spacing: -0.04em;
+  color: white;
+}
+
+p {
+  height: 40pxpx;
+  font-weight: 700;
+  padding: 10px;
+  color: white;
+
+  background-color: rgba(0, 0, 0, 0.774);
+  text-align: center;
+
+  border-radius: 10px;
+}
+

@@ -1,0 +1,29 @@
+body {
+  background-color: rgba(109, 104, 104, 0.233);
+}
+
+section {
+  height: 100%;
+  margin-top: 200px;
+}
+
+.row {
+  height: 100%;
+}
+
+.card {
+  background-color: rgba(0, 0, 0, 0.308);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.445);
+
+  width: 18rem;
+
+  margin: 40px 10px;
+
+  transition: 0.2s;
+}
+
+.card:hover {
+  box-shadow: 3px 2px 10px rgba(99, 60, 60, 0.705);
+}
+
+

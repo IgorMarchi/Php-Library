@@ -1,0 +1,29 @@
+body {
+  background-color: rgba(109, 104, 104, 0.233);
+}
+
+section {
+  height: 100vh;
+  margin-top: 200px;
+}
+
+h1{
+  text-align: center;
+  margin-bottom: 50px;
+
+  color: white;
+  text-shadow: 2px 2px 8px black;
+}
+
+h4{
+  text-align: center;
+}
+
+.col-12 {
+  
+  background-color: rgba(0, 0, 0, 0.384);
+  box-shadow: 2px 2px 8px black;
+
+  padding: 100px;
+  border-radius: 10px;
+}
