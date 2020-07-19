@@ -22,6 +22,7 @@
 ## :rocket: Technologies
 This project was developed with the following technologies:
 -  [PHP](https://www.php.net/)
+-  [MySQL](https://www.mysql.com/)
 -  [Bootstrap](https://getbootstrap.com/)
 -  [CSS](https://www.w3schools.com/css/)
 -  [HTML](https://www.w3schools.com/html/)
